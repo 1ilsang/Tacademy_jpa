@@ -16,7 +16,8 @@
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true" />
 
-            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <!-- 자동으로 DDL 을 만들어준다. -->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
         </properties>
     </persistence-unit>
 </persistence>
